@@ -10,4 +10,6 @@ import java.util.List;
 public interface EmpregadoRepository extends JpaRepository<Empregado, Integer> {
     @Override
     List<Empregado> findAllById(Iterable<Integer> integers);
+
+
 }
